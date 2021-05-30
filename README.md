@@ -3,8 +3,6 @@
 [![MCVer](https://img.shields.io/badge/Minecraft-1.7.10-brightgreen)](https://www.minecraft.net/)
 [![ForgeVer](https://img.shields.io/badge/Forge-10.13.4.1614-important)](https://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.7.10.html)
 [![DLCount](https://img.shields.io/github/downloads/Kai-Z-JP/MetaScrollChanger/total)](https://github.com/Kai-Z-JP/MetaScrollChanger/releases)
-[![DLCountLatest](https://img.shields.io/github/downloads/Kai-Z-JP/MetaScrollChanger/latest/total)](https://github.com/Kai-Z-JP/MetaScrollChanger/releases/latest)
-
 ## What is this?
 
 MetaScrollChanger is easily changing the Meta of a block/item. It only needs to be installed on the client side to
