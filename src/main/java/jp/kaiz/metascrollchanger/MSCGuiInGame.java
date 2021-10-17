@@ -10,7 +10,6 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.event.RenderGameOverlayEvent;
-import org.lwjgl.input.Keyboard;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL12;
 
@@ -29,7 +28,7 @@ public class MSCGuiInGame extends GuiScreen {
     public void onRenderGui(RenderGameOverlayEvent.Pre event) {
         if (this.mc.playerController.isInCreativeMode()) {
             if (event.type == RenderGameOverlayEvent.ElementType.HOTBAR) {
-                if (Keyboard.isKeyDown(MetaScrollChanger.KEY_TRIGGER.getKeyCode())) {
+                if (MetaScrollChanger.KEY_TRIGGER.getIsKeyPressed()) {
                     this.setScale(event.resolution);
 
                     this.mc.entityRenderer.setupOverlayRendering();
