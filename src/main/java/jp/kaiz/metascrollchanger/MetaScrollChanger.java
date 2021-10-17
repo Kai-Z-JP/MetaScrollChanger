@@ -68,7 +68,7 @@ public class MetaScrollChanger {
     @SubscribeEvent
     public void onMouseInput(InputEvent.MouseInputEvent event) {
         if (this.mc.playerController.isInCreativeMode()) {
-            if (Keyboard.isKeyDown(MetaScrollChanger.KEY_TRIGGER.getKeyCode())) {
+            if (MetaScrollChanger.KEY_TRIGGER.isKeyDown()) {
                 EntityPlayer player = this.mc.player;
                 InventoryPlayer inventory = player.inventory;
                 inventory.currentItem = this.currentItemSlot;
