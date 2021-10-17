@@ -29,7 +29,7 @@ import java.util.stream.IntStream;
 @Mod(modid = MetaScrollChanger.MODID, version = MetaScrollChanger.VERSION)
 public class MetaScrollChanger {
     public static final String MODID = "metascrollchanger";
-    public static final String VERSION = "1.7.10_1.0";
+    public static final String VERSION = "1.7.10_1.0.1";
 
     private static final String CATEGORY_KEY = "msc.key";
 
