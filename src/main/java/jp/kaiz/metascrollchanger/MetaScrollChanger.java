@@ -37,7 +37,7 @@ import java.util.stream.IntStream;
 @Mod(modid = MetaScrollChanger.MODID, version = MetaScrollChanger.VERSION, name = MetaScrollChanger.NAME, guiFactory = "jp.kaiz.metascrollchanger.MetaScrollChanger", clientSideOnly = true)
 public class MetaScrollChanger implements IModGuiFactory {
     public static final String MODID = "metascrollchanger";
-    public static final String VERSION = "1.12.2_1.0.1";
+    public static final String VERSION = "1.12.2_1.1.0";
     public static final String NAME = "MetaScrollChanger";
 
     @Mod.Metadata(MODID)
