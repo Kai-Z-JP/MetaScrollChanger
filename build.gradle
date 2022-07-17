@@ -19,7 +19,7 @@ buildscript {
 
 apply plugin: 'forge'
 
-version = "1.7.10-1.0.1"
+version = "1.7.10-1.1.0"
 group= "jp.kaiz.metascrollchanger" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "MetaScrollChanger"
 
