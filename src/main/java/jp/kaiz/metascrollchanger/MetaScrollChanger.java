@@ -71,9 +71,12 @@ public class MetaScrollChanger {
                 EntityClientPlayerMP player = this.mc.thePlayer;
                 InventoryPlayer inventory = player.inventory;
                 inventory.currentItem = this.currentItemSlot;
-                int i = MathHelper.clamp_int(Mouse.getDWheel(), -1, 1);
+                int i = MathHelper.clamp_int(Mouse.getEventDWheel(), -1, 1);
                 if (i == 0) {
                     return;
+                }
+                if (this.invert) {
+                    i = -i;
                 }
                 ItemStack itemStack = inventory.getCurrentItem();
                 if (itemStack == null) {
